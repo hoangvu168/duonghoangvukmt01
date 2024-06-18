@@ -58,23 +58,3 @@ Xác nhận và hủy đặt phòng.
  Quản lý lịch đặt phòng.
  
 
-Quản lý việc nhập hàng từ nhà cung cấp vào kho hàng.
-Ghi nhận thông tin về sản phẩm, số lượng, giá cả và nhà cung cấp.
-Cập nhật lại số hàng toofn kho sau mỗi lần bán hoặc nhập hàng về.
-Theo dõi đơn hàng từ nhà cung cấp và xác nhận quản lý khi hàng đã vào kho.
-Xuất hàng:
-Quản lý việc xuất các mặt hàng từ kho hàng để bán cho khách hàng.
-Ghi nhận thông tin về sản phẩm, số lượng, giá cả và thông tin khách hàng.
-Cập nhật tồn kho sau mỗi lần xuất hàng.
-Theo dõi đơn hàng và xác nhận khi đã được giao.
-Báo cáo
-Báo cáo về doanh thu theo ngày, doanh thu theo tháng,... giúp quản lý được lợi nhuận.
-Tạo và xem báo cáo hoạt động kinh doanh của cửa hàng, số lượng hàng tồn kho nhiều nhất, số lượng hàng bán chạy nhất,....
-Sản phẩm sẽ quản lý những thông tin như: 🔑Mã sản phẩm, tên sản phẩm, thương hiệu, mẫu, thông số, giá, số lượng còn lại.
-Khách hàng: 🔑Mã khách hàng, tên khách hàng, số điện thoại,địa chỉ.
-Đơn hàng: 🔑Mã đơn hàng, mã khách hàng, ngày đặt hàng, tổng tiền.
-Chi tiết đơn hàng: 🔑Mã chi tiết đơn hàng, mã đơn hàng, mã sản phẩm, số lượng, giá.
-Nhà cung cấp: 🔑Mã nhà cung cấp, tên nhà cung cấp, tên người liên hệ, số điện thoại người liên hệ, địa chỉ.
-Danh mục: 🔑Mã danh mục, tên danh mục.
-Giao Dịch kho: 🔑Mã giao dịch, mã sản phẩm, số lượng, ngày giao dịch, loại giao dịch.
-Như vậy, dựa theo những thông tin mà ta đã thu thập được chúng ta sẽ xây dựng các bảng đáp ứng yêu cầu quản lý của của hàng laptop88.
