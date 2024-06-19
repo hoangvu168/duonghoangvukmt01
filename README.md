@@ -311,3 +311,7 @@ SELECT * FROM DatPhong;
 * Cập nhật thông tin (UPDATE) và Xóa dữ liệu (DELETE):
   
 ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/136158c3-05a5-418e-820d-80cd987a65ad)
+
+
+### Các khóa PK, FK, CK trong bài toán
+
