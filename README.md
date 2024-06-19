@@ -350,6 +350,7 @@ CK: Không có ràng buộc điều kiện nào được định nghĩa ở đâ
 
 Bảng CaLamViec
 
+ ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/d7540929-a30d-4a5a-a2b2-34c42aed2095)   
  
 PK: MaCa (Primary Key) - Đây là khóa chính của bảng CaLamViec.
 CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
