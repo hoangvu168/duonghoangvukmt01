@@ -156,6 +156,22 @@ Bảng CaLamViec:
  
 - ThoiGianBatDau, ThoiGianKetThuc: Thời gian bắt đầu và kết thúc của ca làm việc.
 
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/1ffbf40a-bbc4-4d70-9568-a3366856fd4d)
+
+Bảng DatPhong:
+
+Bảng này lưu trữ thông tin đặt phòng hát của khách hàng.
+
+- MaDatPhong: Khóa chính tự tăng cho bảng đặt phòng.
+
+- MaPhong: Khóa ngoại tham chiếu đến MaPhong trong bảng Phong, xác định phòng hát được đặt.
+
+- MaNV: Khóa ngoại tham chiếu đến MaNV trong bảng NhanVien, xác định nhân viên phụ trách đặt phòng.
+ 
+ - NgayDat: Ngày đặt phòng hát.
+
+- GioBatDau, GioKetThuc: Thời gian bắt đầu và kết thúc sử dụng phòng hát.
+
 
  
 
