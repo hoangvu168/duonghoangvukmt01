@@ -172,6 +172,10 @@ Bảng này lưu trữ thông tin đặt phòng hát của khách hàng.
 
 - GioBatDau, GioKetThuc: Thời gian bắt đầu và kết thúc sử dụng phòng hát.
 
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/bb14835f-56fa-4746-9506-aa6f25c101dc)
+
+ 
+ ### Sơ đồ thực thể liên kết
 
  
 
