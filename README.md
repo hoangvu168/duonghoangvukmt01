@@ -370,3 +370,4 @@ PK: MaDatPhong (Primary Key) - Đây là khóa chính của bảng DatPhong.
 FK: MaPhong (Foreign Key) - Tham chiếu đến MaPhong trong bảng Phong.
 MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân viên bị xóa từ bảng NhanVien, các bản ghi tương ứng trong bảng DatPhong cũng sẽ bị xóa (ON DELETE CASCADE).
 
+### -- Tạo VIEW mới để hiển thị thông tin
