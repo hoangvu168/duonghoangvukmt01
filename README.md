@@ -316,7 +316,7 @@ SELECT * FROM DatPhong;
 
 ### Các khóa PK, FK, CK trong bài toán
 
-Bảng NhanVien
+- Bảng NhanVien
 
 ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/68fe287d-9f75-4df0-9674-ff82166d1c88)
 
@@ -324,7 +324,39 @@ PK: MaNV (Primary Key) - Đây là khóa chính của bảng NhanVien.
 
 CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
 
-*Bảng ChamCong
+
+- Bảng ChamCong
+
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/5e8a712d-d5c6-4a60-8902-f9975829485a)
+
+PK: MaCC (Primary Key) - Đây là khóa chính của bảng ChamCong.
+
+FK: MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân viên bị xóa (DELETE) từ bảng NhanVien, các bản ghi tương ứng trong bảng ChamCong cũng sẽ bị xóa (ON DELETE CASCADE).
 
 
+- Bảng Luong
+
+
+
+PK: MaLuong (Primary Key) - Đây là khóa chính của bảng Luong.
+FK: MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân viên bị xóa từ bảng NhanVien, các bản ghi tương ứng trong bảng Luong cũng sẽ bị xóa (ON DELETE CASCADE).
+
+
+
+Bảng Phong
+PK: MaPhong (Primary Key) - Đây là khóa chính của bảng Phong.
+CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
+
+Bảng CaLamViec
+
+PK: MaCa (Primary Key) - Đây là khóa chính của bảng CaLamViec.
+CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
+
+Bảng DatPhong
+
+
+
+PK: MaDatPhong (Primary Key) - Đây là khóa chính của bảng DatPhong.
+FK: MaPhong (Foreign Key) - Tham chiếu đến MaPhong trong bảng Phong.
+MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân viên bị xóa từ bảng NhanVien, các bản ghi tương ứng trong bảng DatPhong cũng sẽ bị xóa (ON DELETE CASCADE).
 
