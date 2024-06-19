@@ -137,9 +137,26 @@ Bảng này mô tả các phòng hát trong quán karaoke.
 - MaPhong: Khóa chính tự tăng cho bảng phòng.
 
 - TenPhong: Tên đặc điểm của phòng hát.
-
+ 
 - LoaiPhong: Loại phòng hát (VIP, thường, ...).
 
 - GiaPhong: Giá thuê của phòng hát cho mỗi giờ hoặc mỗi lượt sử dụng.
+
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/8c5db634-8113-4e02-bca3-14144b339616)
+
+
+
+Bảng CaLamViec:
+
+ Bảng này lưu trữ thông tin về các ca làm việc trong quán karaoke.
+
+- MaCa: Khóa chính tự tăng cho bảng ca làm việc.
+
+- TenCa: Tên của ca làm việc.
+ 
+- ThoiGianBatDau, ThoiGianKetThuc: Thời gian bắt đầu và kết thúc của ca làm việc.
+
+
+ 
 
 
