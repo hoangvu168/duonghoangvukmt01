@@ -106,6 +106,23 @@ Bảng này ghi nhận thông tin chấm công của từng nhân viên.
 - GioVao, GioRa: Thời điểm vào và ra làm việc của nhân viên trong ngày.
 
 
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/a7d8b0e7-8a00-4706-a9fb-52e9fbef5ed0)
+
+
+Bảng Luong:
+Bảng này lưu trữ thông tin về lương của nhân viên
+
+- MaLuong: Khóa chính tự tăng cho bảng lương.
+
+- MaNV: Khóa ngoại tham chiếu đến MaNV trong bảng NhanVien, xác định nhân viên có liên quan đến bản ghi lương.
+
+- LuongCoBan: Số tiền lương cơ bản của nhân viên.
+
+- Thuong: Các khoản thưởng (nếu có) được áp dụng cho nhân viên.
+
+- Phat: các khoản phạt (nếu có) được áp dụng cho nhân viên.
+  
+- TongLuong : Trường tính toán (PERSISTED) cho tổng số tiền lương thực nhận của nhân viên sau khi tính thưởng và phạt.
 
 
 
