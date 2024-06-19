@@ -343,12 +343,14 @@ FK: MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu n
 
 Bảng Phong
 
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/9a3b77ea-247e-4646-8b4f-6bf3d5a419a2)   
 
 PK: MaPhong (Primary Key) - Đây là khóa chính của bảng Phong.
 CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
 
 Bảng CaLamViec
 
+ 
 PK: MaCa (Primary Key) - Đây là khóa chính của bảng CaLamViec.
 CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
 
