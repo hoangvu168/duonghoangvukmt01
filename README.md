@@ -255,6 +255,7 @@ INSERT INTO ChamCong (MaNV, NgayChamCong, GioVao, GioRa)
 VALUES 
 
 (1, '2024-06-01', '09:00:00', '17:00:00'),
+
 (2, '2024-06-01', '10:00:00', '18:00:00');
 
 *Cập nhật thông tin nhân viên
@@ -303,9 +304,11 @@ SELECT * FROM DatPhong;
 
 
 * Thêm dữ liệu vào các bảng (INSERT INTO):
+* 
   ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/16fb061d-943c-41b3-a0ae-227b69c20f3b)
 
 * Truy vấn dữ liệu từ các bảng (SELECT):
+* 
 ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/392278de-d3db-49ba-bd8c-adf3f8d43253)
 
 * Cập nhật thông tin (UPDATE) và Xóa dữ liệu (DELETE):
@@ -339,6 +342,7 @@ FK: MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu n
 ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/708b4bc2-983a-46b4-a384-8f8559b8f2bc)
 
 PK: MaLuong (Primary Key) - Đây là khóa chính của bảng Luong.
+
 FK: MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân viên bị xóa từ bảng NhanVien, các bản ghi tương ứng trong bảng Luong cũng sẽ bị xóa (ON DELETE CASCADE).
 
 Bảng Phong
@@ -346,6 +350,7 @@ Bảng Phong
 ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/9a3b77ea-247e-4646-8b4f-6bf3d5a419a2)   
 
 PK: MaPhong (Primary Key) - Đây là khóa chính của bảng Phong.
+
 CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
 
 Bảng CaLamViec
@@ -353,13 +358,15 @@ Bảng CaLamViec
  ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/d7540929-a30d-4a5a-a2b2-34c42aed2095)   
  
 PK: MaCa (Primary Key) - Đây là khóa chính của bảng CaLamViec.
+
 CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
 
 Bảng DatPhong
 
-
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/73f1d7f1-5535-4f84-8bfd-e16967dd4040)
 
 PK: MaDatPhong (Primary Key) - Đây là khóa chính của bảng DatPhong.
+
 FK: MaPhong (Foreign Key) - Tham chiếu đến MaPhong trong bảng Phong.
 MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân viên bị xóa từ bảng NhanVien, các bản ghi tương ứng trong bảng DatPhong cũng sẽ bị xóa (ON DELETE CASCADE).
 
