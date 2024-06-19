@@ -301,4 +301,7 @@ SELECT * FROM DatPhong;
 
 
 * Thêm dữ liệu vào các bảng (INSERT INTO):
-  
+  ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/16fb061d-943c-41b3-a0ae-227b69c20f3b)
+
+* Truy vấn dữ liệu từ các bảng (SELECT):
+* 
