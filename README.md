@@ -378,4 +378,5 @@ MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân
 
  ### Kết quả 
 
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/74c3ce3c-932a-4d66-a27d-82991a508af5)
  
