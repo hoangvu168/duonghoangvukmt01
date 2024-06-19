@@ -102,6 +102,7 @@ Bảng này ghi nhận thông tin chấm công của từng nhân viên.
 - MaCC: Khóa chính tự tăng cho bảng chấm công.
 
 - MaNV: Khóa ngoại tham chiếu đến MaNV trong bảng NhanVien, xác định nhân viên được chấm công.
+- 
 - NgayChamCong: Ngày nhân viên được chấm công.
 
 - GioVao, GioRa: Thời điểm vào và ra làm việc của nhân viên trong ngày.
@@ -183,39 +184,55 @@ Bảng này lưu trữ thông tin đặt phòng hát của khách hàng.
  ### 2.Thêm dữ liệu vào các bảng
 
 -- Thêm dữ liệu vào bảng NhanVien
+
 INSERT INTO NhanVien (HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai, ChucVu)
 VALUES 
+
 ('Nguyen Van A', '1990-01-01', 'Nam', '123 Le Loi, HCM', '0901234567', 'Le tan'),
+
 ('Tran Thi B', '1992-02-02', 'Nu', '456 Tran Hung Dao, HCM', '0902345678', 'Phuc vu');
 
 -- Thêm dữ liệu vào bảng ChamCong
+
 INSERT INTO ChamCong (MaNV, NgayChamCong, GioVao, GioRa)
 VALUES 
+
 (1, '2024-06-01', '09:00:00', '17:00:00'),
+
 (2, '2024-06-01', '10:00:00', '18:00:00');
 
 -- Thêm dữ liệu vào bảng Luong
+
 INSERT INTO Luong (MaNV, LuongCoBan, Thuong, Phat)
 VALUES 
+
 (1, 5000000, 500000, 100000),
+
 (2, 6000000, 600000, 200000);
 
 -- Thêm dữ liệu vào bảng Phong
+
 INSERT INTO Phong (TenPhong, LoaiPhong, GiaPhong)
 VALUES 
+
 ('Phong 1', 'VIP', 300000),
+
 ('Phong 2', 'Thuong', 150000);
 
 -- Thêm dữ liệu vào bảng CaLamViec
+
 INSERT INTO CaLamViec (TenCa, ThoiGianBatDau, ThoiGianKetThuc)
 VALUES 
 ('Ca Sang', '08:00:00', '12:00:00'),
+
 ('Ca Chieu', '13:00:00', '17:00:00');
 
 -- Thêm dữ liệu vào bảng DatPhong
+
 INSERT INTO DatPhong (MaPhong, MaNV, NgayDat, GioBatDau, GioKetThuc)
 VALUES 
 (1, 1, '2024-06-01', '09:00:00', '11:00:00'),
+
 (2, 2, '2024-06-01', '14:00:00', '16:00:00');
 
 ## Thiết lập chức năng
@@ -283,3 +300,5 @@ WHERE MaNV = 1;
 SELECT * FROM DatPhong;
 
 
+* Thêm dữ liệu vào các bảng (INSERT INTO):
+  
