@@ -91,7 +91,19 @@ MaNV: Khóa chính (Primary Key) tự tăng, định danh duy nhất cho mỗi n
 - ChucVu: Chức vụ hoặc vai trò của nhân viên trong quán karaoke.
 
 
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/9a7bf524-52ee-4335-ae8e-a2623b6c7173)
 
+
+Bảng ChamCong:
+
+Bảng này ghi nhận thông tin chấm công của từng nhân viên.
+ 
+- MaCC: Khóa chính tự tăng cho bảng chấm công.
+
+- MaNV: Khóa ngoại tham chiếu đến MaNV trong bảng NhanVien, xác định nhân viên được chấm công.
+- NgayChamCong: Ngày nhân viên được chấm công.
+
+- GioVao, GioRa: Thời điểm vào và ra làm việc của nhân viên trong ngày.
 
 
 
