@@ -59,6 +59,8 @@ Xác nhận và hủy đặt phòng.
 
  Quản lý lịch đặt phòng.
 
+#### Các khóa trong bài toán:
+
 #### 1 Tạo cơ sở dữ liệu quản lý hàng gồm các bảng :
 
 NhanVien(🔑ID,MaNV,HoTen, NgaySinh, GioiTinh,DiaChi,SoDenThoai,ChucVu)
