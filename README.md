@@ -336,14 +336,14 @@ FK: MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu n
 
 - Bảng Luong
 
-
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/708b4bc2-983a-46b4-a384-8f8559b8f2bc)
 
 PK: MaLuong (Primary Key) - Đây là khóa chính của bảng Luong.
 FK: MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân viên bị xóa từ bảng NhanVien, các bản ghi tương ứng trong bảng Luong cũng sẽ bị xóa (ON DELETE CASCADE).
 
-
-
 Bảng Phong
+
+
 PK: MaPhong (Primary Key) - Đây là khóa chính của bảng Phong.
 CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
 
