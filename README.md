@@ -312,6 +312,19 @@ SELECT * FROM DatPhong;
   
 ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/136158c3-05a5-418e-820d-80cd987a65ad)
 
+*Bảng NhanVien
 
 ### Các khóa PK, FK, CK trong bài toán
+
+Bảng NhanVien
+
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/68fe287d-9f75-4df0-9674-ff82166d1c88)
+
+PK: MaNV (Primary Key) - Đây là khóa chính của bảng NhanVien.
+
+CK: Không có ràng buộc điều kiện nào được định nghĩa ở đây.
+
+*Bảng ChamCong
+
+
 
