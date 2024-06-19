@@ -371,3 +371,11 @@ FK: MaPhong (Foreign Key) - Tham chiếu đến MaPhong trong bảng Phong.
 MaNV (Foreign Key) - Tham chiếu đến MaNV trong bảng NhanVien. Nếu nhân viên bị xóa từ bảng NhanVien, các bản ghi tương ứng trong bảng DatPhong cũng sẽ bị xóa (ON DELETE CASCADE).
 
 ### -- Tạo VIEW mới để hiển thị thông tin
+
+ ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/b1a74937-6de7-43a0-b297-efc9e166611c)
+
+
+
+ ### Kết quả 
+
+ 
