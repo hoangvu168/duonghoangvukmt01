@@ -59,7 +59,7 @@ Xác nhận và hủy đặt phòng.
 
  Quản lý lịch đặt phòng.
 
-#### Tạo cơ sở dữ liệu quản lý hàng gồm các bảng :
+#### 1 Tạo cơ sở dữ liệu quản lý hàng gồm các bảng :
 
 NhanVien(🔑ID,MaNV,HoTen, NgaySinh, GioiTinh,DiaChi,SoDenThoai,ChucVu)
 
@@ -177,6 +177,109 @@ Bảng này lưu trữ thông tin đặt phòng hát của khách hàng.
  
  ### Sơ đồ thực thể liên kết
 
- 
+ ![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/da204f1c-0889-4d81-9954-15d49ff6b845)
+
+
+ ### 2.Thêm dữ liệu vào các bảng
+
+-- Thêm dữ liệu vào bảng NhanVien
+INSERT INTO NhanVien (HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai, ChucVu)
+VALUES 
+('Nguyen Van A', '1990-01-01', 'Nam', '123 Le Loi, HCM', '0901234567', 'Le tan'),
+('Tran Thi B', '1992-02-02', 'Nu', '456 Tran Hung Dao, HCM', '0902345678', 'Phuc vu');
+
+-- Thêm dữ liệu vào bảng ChamCong
+INSERT INTO ChamCong (MaNV, NgayChamCong, GioVao, GioRa)
+VALUES 
+(1, '2024-06-01', '09:00:00', '17:00:00'),
+(2, '2024-06-01', '10:00:00', '18:00:00');
+
+-- Thêm dữ liệu vào bảng Luong
+INSERT INTO Luong (MaNV, LuongCoBan, Thuong, Phat)
+VALUES 
+(1, 5000000, 500000, 100000),
+(2, 6000000, 600000, 200000);
+
+-- Thêm dữ liệu vào bảng Phong
+INSERT INTO Phong (TenPhong, LoaiPhong, GiaPhong)
+VALUES 
+('Phong 1', 'VIP', 300000),
+('Phong 2', 'Thuong', 150000);
+
+-- Thêm dữ liệu vào bảng CaLamViec
+INSERT INTO CaLamViec (TenCa, ThoiGianBatDau, ThoiGianKetThuc)
+VALUES 
+('Ca Sang', '08:00:00', '12:00:00'),
+('Ca Chieu', '13:00:00', '17:00:00');
+
+-- Thêm dữ liệu vào bảng DatPhong
+INSERT INTO DatPhong (MaPhong, MaNV, NgayDat, GioBatDau, GioKetThuc)
+VALUES 
+(1, 1, '2024-06-01', '09:00:00', '11:00:00'),
+(2, 2, '2024-06-01', '14:00:00', '16:00:00');
+
+## Thiết lập chức năng
+
+## 1.Chức năng cơ bản
+
+INSERT INTO NhanVien
+
+(HoTen, NgaySinh, GioiTinh, DiaChi, SoDienThoai, ChucVu)
+VALUES 
+('Nguyen Van A', '1990-01-01', 'Nam', '123 Le Loi, HCM', '0901234567', 'Le tan'),
+
+('Tran Thi B', '1992-02-02', 'Nu', '456 Tran Hung Dao, HCM', '0902345678', 'Phuc vu');
+
+*Chấm công cho nhân viên vào ngày cụ thể:
+
+INSERT INTO ChamCong (MaNV, NgayChamCong, GioVao, GioRa)
+VALUES 
+
+(1, '2024-06-01', '09:00:00', '17:00:00'),
+(2, '2024-06-01', '10:00:00', '18:00:00');
+
+*Cập nhật thông tin nhân viên
+UPDATE NhanVien
+
+SET DiaChi = '789 Nguyen Trai, HCM'
+
+WHERE MaNV = 1;
+
+*Xóa thông tin nhân viên (cùng với các thông tin liên quan trong các bảng khác như chấm công, lương, đặt phòng):
+
+DELETE FROM NhanVien WHERE MaNV = 2;
+
+*Đặt phòng hát cho khách hàng vào ngày và giờ cụ thể:
+
+INSERT INTO DatPhong (MaPhong, MaNV, NgayDat, GioBatDau, GioKetThuc)
+VALUES 
+
+(1, 1, '2024-06-01', '09:00:00', '11:00:00'),
+
+(2, 2, '2024-06-01', '14:00:00', '16:00:00');
+
+*Truy vấn thông tin nhân viên
+
+SELECT * FROM NhanVien;
+
+*Truy vấn thông tin chấm công của một nhân viên cụ thể
+
+SELECT * FROM ChamCong WHERE MaNV = 1;
+
+ Tính tổng lương của tất cả nhân viên
+
+SELECT MaNV, TongLuong FROM Luong;
+
+*Cập nhật thông tin nhân viên
+
+UPDATE NhanVien
+
+SET DiaChi = '789 Nguyen Trai, HCM'
+
+WHERE MaNV = 1;
+
+*Truy vấn thông tin đặt phòng hát của khách hàng:
+
+SELECT * FROM DatPhong;
 
 
