@@ -78,6 +78,7 @@ DatPhong(🔑ID, MaDatPhong,MaPhong, MaNV, NgayDat,GioBatDau ,GioKetThuc )
 Bảng NhanVien (Phải tạo đầu tiên để các bảng khác tham chiếu tới)
 
 MaNV: Khóa chính (Primary Key) tự tăng, định danh duy nhất cho mỗi nhân viên.
+
 - HoTen: Tên đầy đủ của nhân viên.
 
 - NgaySinh: Ngày sinh của nhân viên.
@@ -110,6 +111,7 @@ Bảng này ghi nhận thông tin chấm công của từng nhân viên.
 
 
 Bảng Luong:
+
 Bảng này lưu trữ thông tin về lương của nhân viên
 
 - MaLuong: Khóa chính tự tăng cho bảng lương.
@@ -124,5 +126,20 @@ Bảng này lưu trữ thông tin về lương của nhân viên
   
 - TongLuong : Trường tính toán (PERSISTED) cho tổng số tiền lương thực nhận của nhân viên sau khi tính thưởng và phạt.
 
+![image](https://github.com/hoangvu168/duonghoangvukmt01/assets/169289491/a48ea565-b5b4-4e9d-81c1-18171831a916)
+
+
+
+Bảng Phong: 
+
+Bảng này mô tả các phòng hát trong quán karaoke.
+
+- MaPhong: Khóa chính tự tăng cho bảng phòng.
+
+- TenPhong: Tên đặc điểm của phòng hát.
+
+- LoaiPhong: Loại phòng hát (VIP, thường, ...).
+
+- GiaPhong: Giá thuê của phòng hát cho mỗi giờ hoặc mỗi lượt sử dụng.
 
 
